@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { ChoiceGroup, ComboBox, DatePicker, Dropdown, PrimaryButton, TextField } from '@fluentui/react';
+
 const FormData:React.FC<{}>=()=>{
     return(
         <>
@@ -75,6 +76,8 @@ iconProps={{iconName:'cancel'}}
 onClick={()=>alert('reset succesffully')}
 />
         </form>
+
+        {/*  */}
         </>
     )
 }
